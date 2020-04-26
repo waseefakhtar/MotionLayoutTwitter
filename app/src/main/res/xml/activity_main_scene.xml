@@ -8,12 +8,49 @@
         motion:constraintSetStart="@id/start"
         motion:duration="1000">
        <KeyFrameSet>
+           <KeyAttribute
+               motion:motionTarget="@+id/imageView"
+               motion:framePosition="0"
+               android:scaleX="1.0" />
+           <KeyAttribute
+               motion:motionTarget="@+id/imageView"
+               motion:framePosition="0"
+               android:scaleY="1.0" />
+
+           <KeyAttribute
+               motion:motionTarget="@+id/imageView"
+               motion:framePosition="20"
+               android:scaleX="0.7" />
+           <KeyAttribute
+               motion:motionTarget="@+id/imageView"
+               motion:framePosition="20"
+               android:scaleY="0.7" />
+
+           <KeyAttribute
+               motion:motionTarget="@+id/imageView"
+               motion:framePosition="40"
+               android:scaleX="0.7" />
+           <KeyAttribute
+               motion:motionTarget="@+id/imageView"
+               motion:framePosition="40"
+               android:scaleY="0.7" />
+
+           <KeyAttribute
+               motion:motionTarget="@+id/imageView"
+               motion:framePosition="100"
+               android:scaleX="50.0" />
+           <KeyAttribute
+               motion:motionTarget="@+id/imageView"
+               motion:framePosition="100"
+               android:scaleY="50.0" />
        </KeyFrameSet>
+        <OnClick />
     </Transition>
 
     <ConstraintSet android:id="@+id/start">
     </ConstraintSet>
 
-    <ConstraintSet android:id="@+id/end">
+    <ConstraintSet
+        android:id="@+id/end">
     </ConstraintSet>
 </MotionScene>

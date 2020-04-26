@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MotionLayout-Twitter</string>
+    <string name="twitter_logo">Twitter Logo</string>
 </resources>
