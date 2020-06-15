@@ -44,7 +44,9 @@
                motion:framePosition="100"
                android:scaleY="50.0" />
        </KeyFrameSet>
-        <OnClick />
+        <OnClick
+            motion:clickAction="transitionToEnd"
+            />
     </Transition>
 
     <ConstraintSet android:id="@+id/start">
