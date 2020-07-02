@@ -13,7 +13,7 @@
     </style>
 
     <style name="WindowAnimationStyle">
-        <item name="android:windowEnterAnimation">@android:anim/linear_interpolator</item>
+        <item name="android:windowEnterAnimation">@anim/fade</item>
     </style>
 
 </resources>
