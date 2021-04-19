@@ -3,8 +3,8 @@
 # Android MotionLayout: Creating the Twitter splash screen in the simplest way possible
 
 ## Tutorial
-* Part I: https://proandroiddev.com/android-motionlayout-twitter-splash-screen-b5755ed56ee8
-* Part II: https://proandroiddev.com/android-motionlayout-twitter-splash-screen-57323ee97855
+* Part I: https://www.waseefakhtar.com/android/android-motionlayout-creating-the-twitter-splash-screen-in-the-simplest-way-possible-part-i/
+* Part II: https://www.waseefakhtar.com/android/android-motionlayout-creating-the-twitter-splash-screen-in-the-simplest-way-possible-part-ii/
 
 ## Final Screen
 
